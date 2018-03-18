@@ -40,7 +40,6 @@ valid_writer = tf.summary.FileWriter('./logs/valid')
 
 # Checkpoint
 saver = tf.train.Saver()
-best_acc = 0
 
 # Training iteration
 sess = tf.Session()
